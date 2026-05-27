@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systemic Play</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo">
+                <a href="index.html">Systemic Play</a>
+            </h1>
+        </div>
+        <div class="busqueda">
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <nav class="opciones">
+            <!--<div class="option">Categorías</div> -->
+            <div class="option">
+                <a href="login" class="option" id="auth-link">Iniciar Sesión</a>
+                <a href="/paginas/carrito.html" class="option">Carrito</a>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="sub_menu">
+        <ul>
+            <li class="dropdown">
+                <a href="./paginas/consola.html" class="dropbtn">Consolas</a>
+                <ul class="dropdown-content">
+                    <li><a href="paginas/PS5.html">PlayStation 5</a></li>
+                    <li><a href="paginas/PS4.html">PlayStation 4</a></li>
+                    <li><a href="paginas/XBOX.html">XBOX</a></li>
+                    <li><a href="paginas/NintendoSwitch.html">Nintendo Switch</a></li>
+                    <li><a href="paginas/PC.html">PC</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="paginas/accesorios.html">Accesorios</a></li>
+            <li><a href="paginas/coleccionables.html">Coleccionables</a></li>
+            <li><a href="paginas/lanzamientos.html">Próximos Lanzamientos</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN DE PRODUCTOS EN OFERTA -->
+    <section class="banner_ofertas">
+        <button class="flecha flecha_izq" onclick="cambiarSlide(-1)">◀</button>
+        
+        <div class="visor_slider">
+            <!-- La "tira" que contiene las imágenes de ofertas -->
+            <div class="contenedor_slides">
+                <div class="slide">
+                    <img src="img/img_caja_deslizar/mk1.jpg" alt="Oferta 1">
+                </div>
+                <div class="slide">
+                    <img src="img/img_caja_deslizar/ps5_oferta.jpg" alt="Oferta 2">
+                </div>
+                <div class="slide">
+                    <img src="img/img_caja_deslizar/ns2_oferta.jpg" alt="Oferta 3">
+                </div>
+                <div class="slide">
+                    <img src="img/img_caja_deslizar/xbox_oferta.jpg" alt="Oferta 4">
+                </div>
+            </div>
+        </div>
+
+        <button class="flecha flecha_der" onclick="cambiarSlide(+1)">▶</button>
+    </section>
+
+    <main class="contenedor_principal">
+        <h2 class="titulo_seccion">JUEGOS EN TENDENCIA</h2>
+
+        <div class="botones_videojuegos">
+            <div class="columna_plataforma">
+                    <div class="tarjeta_juego">
+                        <a href="paginas/pagina -juegos/Diablo.html">
+                    <div class="img_tendencia">
+                        <img src="img/img_tendencias/producto_tendencia1.jpg" alt="img_tendencia1">
+                        <span class="etiqueta_descuento">-60%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">Diablo IV</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 219.90</span>
+                            <span class="precio_ahora">S/ 131.94</span>
+                        </div>
+                    </div>    
+                </div>
+                </a>
+            </div>
+
+            <div class="columna_plataforma">
+                    <div class="tarjeta_juego">
+<a href="paginas/pagina -juegos/callofduty.html">
+                    <div class="img_tendencia">
+                        <img src="img/img_tendencias/producto_tendencia2.jpg" alt="img_tendencia2">
+                        <span class="etiqueta_descuento">-70%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">Call of Duty: Black Ops 7</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 209.90</span>
+                            <span class="precio_ahora">S/ 146.93</span>
+                        </div>
+                    </div>    
+                </div>
+                </a>
+            </div>
+
+            <div class="columna_plataforma">
+                    <div class="tarjeta_juego">
+                        <a href="paginas/pagina -juegos/motogp26.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_tendencias/producto_tendencia3.jpg" alt="img_tendencia3">
+                        <span class="etiqueta_descuento">-50%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">Moto GP 26</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 299.90</span>
+                            <span class="precio_ahora">S/ 149.95</span>
+                        </div>
+                    </div>    
+                </div>
+                </a>
+            </div>
+
+            <div class="columna_plataforma">
+                    <div class="tarjeta_juego">
+                        <a href="paginas/pagina -juegos/residentevil9.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_tendencias/producto_tendencia4.jpg" alt="img_tendencia4">
+                        <span class="etiqueta_descuento">-60%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">Resident Evil Requiem</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 299.00</span>
+                            <span class="precio_ahora">S/ 179.40</span>
+                        </div>
+                    </div>    
+                </div>
+                </a>
+            </div>
+
+            <div class="columna_plataforma">
+                    <div class="tarjeta_juego">
+                        <a href="paginas/pagina -juegos/nomaysky.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_tendencias/producto_tendencia5.jpg" alt="img_tendencia5">
+                        <span class="etiqueta_descuento">-50%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">No Man's Sky</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 249.90</span>
+                            <span class="precio_ahora">S/ 124.95</span>
+                        </div>
+                    </div>    
+                </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <section class="botones_plataformas">
+        <h2>OFERTAS EN VIDEOJUEGOS</h2>
+        <div class="botones_videojuegos">
+            <!-- Bloque PS5 MODIFICADO-->
+            <div class="columna_plataforma">
+                
+                <a href="./paginas/PS5.html" class="btn_plataforma">PS5</a>
+
+                <div class="tarjeta_juego">
+                    <a href="paginas/pagina -juegos/wwe.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_ofertas/oferta_ps5.jpg" alt="Oferta PS5">
+                        <span class="etiqueta_descuento">-60%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">WWE 2K24 Deluxe Edition</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 249.90</span>
+                            <span class="precio_ahora">S/ 99.90</span>
+                        </div>
+                    </div>    
+                </div>
+                 </a>
+            </div>
+
+            <!-- Bloque PS4 MODIFICADO-->
+            <div class="columna_plataforma">
+                <a href="./paginas/PS4.html" class="btn_plataforma">PS4</a>
+
+                <div class="tarjeta_juego">
+                      <a href="paginas/pagina -juegos/uncharted.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_ofertas/oferta_ps4.jpg" alt="Oferta PS4">
+                        <span class="etiqueta_descuento">-70%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">UNCHARTED The Nathan Drake Collection</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 129.90</span>
+                            <span class="precio_ahora">S/ 38.97</span>
+                        </div>
+                    </div>    
+                </div>
+                 </a>
+            </div>
+
+            <!-- Bloque PC MODIFICADO-->
+            <div class="columna_plataforma">
+                <a href="./paginas/PC.html" class="btn_plataforma">PC</a>
+
+                <div class="tarjeta_juego">
+                    <a href="paginas/pagina -juegos/7daystodie.html">
+                    <div class="img_tendencia">
+                        <img src="img/img_ofertas/oferta_pc.jpg" alt="Oferta PC">
+                        <span class="etiqueta_descuento">-50%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">7 Days to Die</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 89.99</span>
+                            <span class="precio_ahora">S/ 44.90</span>
+                        </div>
+                    </div>    
+                </div>
+                 </a>
+            </div>
+
+            <!-- Bloque Nintendo Switch MODIFICADO-->
+            <div class="columna_plataforma">
+                <a href="./paginas/NintendoSwitch.html" class="btn_plataforma">Nitendo Switch</a>
+                <div class="tarjeta_juego">
+                    <a href="paginas/pagina -juegos/supersmash.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_ofertas/oferta_ns2.jpg" alt="Oferta Switch">
+                        <span class="etiqueta_descuento">-60%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">Super Smash Bros.™ Ultimate</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 239.00</span>
+                            <span class="precio_ahora">S/ 95.96</span>
+                        </div>
+                    </div>    
+                </div>
+                 </a>
+            </div>
+
+            <!-- Bloque XBOX MODIFICADO-->
+            <div class="columna_plataforma">
+                <a href="./paginas/XBOX.html" class="btn_plataforma">XBOX</a>
+
+                <div class="tarjeta_juego">
+                      <a href="paginas/pagina -juegos/alanwake.html">
+
+                    <div class="img_tendencia">
+                        <img src="img/img_ofertas/oferta_xbox.jpg" alt="Oferta XBOX">
+                        <span class="etiqueta_descuento">-50%</span>
+                    </div>
+        
+                    <div class="info_juego">
+                        <p class="titulo_juego">Alan Wake</p>
+                        <div class="precios">
+                            <span class="precio_antes">S/ 100.00</span>
+                            <span class="precio_ahora">S/ 50.00</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+             </a>
+        </div>
+
+    </section>
+    
+
+    <!-- SECCIÓN DE RESEÑAS  -->
+    <section class="seccion_resenas">
+        <h3>Reseñas</h3>
+        <div class="caja_resenas">
+            <div class="resena">"Muy buena atención"</div>
+            <div class="resena">"Los mejores precios de PS5"</div>
+            <div class="resena">"Navegación rápida y eficaz"</div>
+            <div class="resena">"Buen soporte técnico las 24hrs"</div>
+        </div>
+    </section>
+
+    <div class="contacto_flotante">
+        <div class="icono_chat">
+            <img src="img/wp2.webp" alt="WhatsApp"> 
+        </div>
+        <span class="texto_contacto">Comunícate con Nosotros</span>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2026 Systemic Play</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
